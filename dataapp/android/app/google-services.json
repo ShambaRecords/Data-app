@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784761926899",
+    "project_id": "dataapp-9cfb7",
+    "storage_bucket": "dataapp-9cfb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784761926899:android:5d3ebac6f4b34afe50f386",
+        "android_client_info": {
+          "package_name": "com.ivanyiga.dataapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784761926899-iiqum3so6275vu5o190ofa0t1pavn751.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2fIoi0sksvYmg0KRM_UKlTXCZbRv03FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784761926899-iiqum3so6275vu5o190ofa0t1pavn751.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
