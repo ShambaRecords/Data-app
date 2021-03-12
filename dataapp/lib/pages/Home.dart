@@ -40,7 +40,6 @@ class _HomeState extends State<Home> {
         .millisecondsSinceEpoch;
     var today = DateTime.fromMillisecondsSinceEpoch(_timeStamp);
     var formatedDate = DateFormat.yMMMEd().format(today);
-    print(formatedDate);
     setState(() {
       _today = "$formatedDate (Today)";
       _dayT = formatedDate.split(",")[0];
@@ -194,7 +193,6 @@ class _HomeState extends State<Home> {
             shrinkWrap: true,
             primary: false,
             children: snapshot.data.documents.map((DocumentSnapshot document) {
-              print(document.documentID);
               return InkWell(
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context) => PunchIn(false,document)));

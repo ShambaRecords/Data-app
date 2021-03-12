@@ -368,7 +368,6 @@ class _PunchInState extends State<PunchIn> {
   savePunchOut(id){
     var _timeStamp = DateTime.now().millisecondsSinceEpoch;
     dataManagemnt().punchOutAttendance(id,_timeStamp).then((doc){
-      print(doc);
       setState(() {
         _isLoading = false;
       });

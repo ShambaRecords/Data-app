@@ -22,14 +22,12 @@ class _WelcomeState extends State<Welcome> {
 
   checkIfLoggedIn(){
     userManagement().checkIfLoggedIn().then((loggedIn){
-      // print(loggedIn);
       setState(() {
         _loggedIn = loggedIn;
         _isLoading = false;
       });
       if(_loggedIn){
         userManagement().getCurrentUser().then((user){
-          // print(user.email);
           if(user!=null){
             userManagement().getUserDetails(user.email).then((userData){
               setState(() {
